@@ -7,9 +7,9 @@ app = Flask(__name__)
 app.secret_key = 'million_super_secret_key_2026_masterpiece_completed'
 
 # ================= إعدادات قاعدة البيانات والأدمن =================
-DB_HOST = "92.113.22.82"
+DB_HOST = "srv1814.hstgr.io"
 DB_USER = "u315866850_4zCBQ"
-DB_PASS = "Amal1979@@h"  
+DB_PASS = "NNt0JBRMRs"  
 DB_NAME = "u315866850_FnwSO"
 
 ADMIN_USERNAME = "admin"
