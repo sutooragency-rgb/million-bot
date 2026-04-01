@@ -18,9 +18,9 @@ BOT_TOKEN = "8799520306:AAF1bMMTftn21TCE8DvB5CgTEeUAVyez5_s"
 SUPER_ADMIN_ID = 8309566360 
 LOG_CHANNEL_ID = -1003753128410 # غرفة العمليات والأرشيف
 
-DB_HOST = "92.113.22.82"
+DB_HOST = "srv1814.hstgr.io"
 DB_USER = "u315866850_4zCBQ"
-DB_PASS = "Amal1979@@h"  
+DB_PASS = "NNt0JBRMRs"  
 DB_NAME = "u315866850_FnwSO"  
 
 bot = Bot(token=BOT_TOKEN, default=DefaultBotProperties(parse_mode=ParseMode.HTML))
@@ -454,7 +454,8 @@ async def process_order_quantity(message: Message, state: FSMContext, pool):
 
     await state.clear()
     await message.answer("✅ <b>تم استلام طلبك بنجاح!</b>\nتم إدراج قناتك في قسم (تجميع النقاط) وسيبدأ الأعضاء بالانضمام إليها.", reply_markup=get_main_menu())
-    # ================= ⛏️ لعبة منجم المليون و سحب الـ MIQ =================
+
+# ================= ⛏️ لعبة منجم المليون و سحب الـ MIQ =================
 
 @dp.callback_query(F.data == "play_mine_game")
 async def play_mine_game_handler(callback: CallbackQuery, pool):
