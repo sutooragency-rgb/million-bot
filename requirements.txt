@@ -1,0 +1,5 @@
+aiogram
+aiomysql
+aiohttp
+flask
+pymysql
